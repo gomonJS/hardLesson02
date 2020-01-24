@@ -29,4 +29,4 @@ for (let i = 0; i < strNum.length; i++) {
 let numberPow = temp ** 3;
 numberPow = numberPow + '';
 
-result.textContent = numberPow.substr(0, 2);
+result.textContent = numberPow.substring(0, 2);
